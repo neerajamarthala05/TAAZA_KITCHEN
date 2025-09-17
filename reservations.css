@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  
+  
+}
+.html{
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  padding: 0%;
+}
+/* body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background: #f6f6f6;
+  overflow-x: hidden;
+}
+  */
+
+
+header {
+    /* background-color: darkgreen; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+    min-width: 100vw;
+    height: 100px;
+    /* position:fixed; */
+    z-index: 1;
+    /* background-color: rgba(116, 174, 145, 0.522); */
+    background-color: rgb(13, 47, 15);
+    position: fixed;
+}
+
+header nav ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    margin: 30px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: orange;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.right-controls {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+    font-size: 20px;
+}
+
+.btn-small {
+    border: 1px solid white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    transition: background 0.3s;
+}
+
+.btn-small:hover {
+    background: white;
+    color: black;
+}
+
+.right-controls {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.btn {
+    border: 1px solid white;
+    padding: 5px 15px;
+    border-radius: 25px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.btn:hover {
+    background-color: white;
+    color: rgb(6, 47, 6);
+}
+
+.btn1 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.btn1:hover {
+    color: rgb(182, 176, 176);
+}
+
+.cart {
+    color: white;
+}
+
+
+
+
+
+ body {
+      font-family: Arial, sans-serif;
+      background: #fff;
+      color: #123;
+      overflow-x: hidden;
+
+    }
+
+    .section{
+        padding-left: 5rem;
+    }
+    .breadcrumb{
+      padding-top: 10rem;
+      font-size:2rem;
+
+    }
+   
+    h1 {
+      font-size: 60px;
+      font-weight: bold;
+      color:blueviolet;
+      padding-top: 35px;
+    }
+
+    p{
+        font-size:25px;
+    }
+    
+    /* Inline row for stacked inputs */
+    .inline-fields {
+      display: flex;
+      gap: 15rem;
+      margin: 20px 0;
+      flex-wrap: wrap;
+      margin-bottom: 3rem;
+    }
+    .inline-fields div {
+      display: flex;
+      flex-direction: column; /* label on top of input */
+
+    }
+    label {
+      font-weight: bold;
+      margin-bottom: 6px;
+    }
+    select, input {
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      min-width: 150px;
+    }
+
+    .time-slots {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 per row */
+  gap: 20px;
+  align-items: center;
+  margin: 20px 0;
+  padding-left:5rem;
+  padding-right:5rem;
+}
+    .slot {
+      padding: 8px 12px;
+      background: #2f4f2f;
+      color: white;
+      text-align: center;
+      border-radius: 80px;
+      cursor: pointer;
+      width:15rem;
+      white-space: nowrap;
+    }
+    .slot.selected {
+      background: pink;
+      color: black;
+    }
+    button {
+      background: pink;
+      border: none;
+      padding: 12px;
+      width: 15%;
+      font-size: 16px;
+      margin-left: 38.9rem;
+      font-weight: bold;
+      border-radius: 25px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #ffb6c1;
+      
+    }
+
+
+
+
+
+    
+ /* footer */
+.container-footer{
+  background-color: rgb(7, 39, 7);
+  color: #fff;
+  width: 100vw;
+  height: 100vh;
+}
+
+.h1footer{
+      font-size:5rem;
+      color: #f2a6b3;
+      font-weight: bold;
+      text-align: center;
+      padding-top: 8.5rem;
+}
+
+.h2footer{
+      font-size: 1.3rem;
+      font-style: italic;
+      margin: 10px 0 40px 0;
+      text-align: center;
+      padding-top: 1.3rem;
+}
+.h2footer span{
+  margin: 0 10px;
+}
+
+.columns{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  font-size: 1rem;
+  padding-top: 3rem;
+}
